@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Alumni+Sans&family=Bruno+Ace+SC&family=Lora&family=Open+Sans&family=Roboto+Mono:wght@400;700&display=swap");
+
+:root {
+  --primary-color: #fb7185;
+  --wave-color: black;
+}
+
+body {
+  font-family: "Alumni Sans", sans-serif;
+  font-family: "Bruno Ace SC", cursive;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto Mono", monospace;
+  margin: 0;
+}
+
+.wrapper {
+  margin: 0rem;
+  padding: 0.1rem 0rem;
+  display: block;
+  background-color: var(--primary-color);
+  text-align: center;
+}
+
+.image {
+  margin: 1rem;
+  padding: 1rem;
+  max-width: 120px;
+  float: left;
+  border: 1px solid white;
+  background-color: white;
+  border-radius: 10rem;
+}
+
+.text-box {
+  color: white;
+}
+
+.heading {
+  display: block;
+  margin-left: auto;
+  color: black;
+  text-decoration: underline;
+  font-family: "Alumni Sans", sans-serif;
+  font-size: 4rem;
+}
+
+#txt-area {
+  padding: 0.5rem;
+  border: 1px solid var(--wave-color);
+  display: block;
+  margin-left: 20rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  width: 60%;
+  height: 15vh;
+  font-size: 0.8rem;
+  font-family: "Roboto Mono";
+}
+
+#btn-reference {
+  margin-left: 20rem;
+  padding: 1.2rem;
+  font-family: "Bruno Ace SC", cursive;
+  font-size: larger;
+  background-color: var(--primary-color);
+  border: none;
+}
+
+#para {
+  margin-left: 4rem;
+  color: white;
+  font-family: "Lora", serif;
+  margin-right: 4rem;
+}
+
+#para-out {
+  color: black;
+  margin-left: 20rem;
+  font-family: "Alumni Sans", sans-serif;
+  font-size: 1.5rem;
+}
+
+#output {
+  padding: 0.5rem;
+  border: 1px solid var(--wave-color);
+  display: block;
+  margin: 1rem 20rem;
+  width: 60%;
+  height: 15vh;
+}
+
+.footer {
+  margin: 0rem;
+  padding: 0.5rem;
+  background-color: var(--primary-color);
+}
+
+.heading2 {
+  text-align: center;
+  margin-right: 12rem;
+  font-family: "Alumni Sans", sans-serif;
+  font-size: 2rem;
+}
